@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    height: 100vh;
+    background-color: rgb(61, 26, 90);
+}
+
+.titleContainer {
+    text-align: center;
+    color: white;
+    padding: 0 20%;
+}
+
+.buttonContainer {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.playerCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+button {
+    border-radius: 10px 0 10px 0;
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
